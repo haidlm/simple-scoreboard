@@ -10,9 +10,9 @@ terraform {
 
   # NOTE: Don't forget to change the bucket and table names!
   backend "s3" {
-    bucket         = "s3-tfstate-statestoragebucket-CHANGEME"
-    key            = "simple-scoreboard.tfstate"
-    dynamodb_table = "s3-tfstate-StateLockingTable-CHANGEME"
+    bucket         = "my-scoreboardbucket-statestoragebucket-q5yfkj5sr4pm"
+    key            = "my-scoreboard.tfstate"
+    dynamodb_table = "my-scoreboardbucket-StateLockingTable-1FLLPBBQ244D5"
   }
 }
 
